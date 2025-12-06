@@ -1,0 +1,173 @@
+.blog-section {
+    text-align: center;
+    padding: 40px;
+}
+.blog-content {
+    background-color: blue;
+}
+.row1 {
+    justify-content: center;
+    padding: 10px 0;
+}
+.row2 {
+    padding: 10px 0;
+}
+
+.image-section {
+    margin: 20px;
+    padding: 40px;
+}
+.banner {
+    margin-bottom: 20px;
+}
+
+
+.section {
+        position: relative;
+        justify-content: center;
+        display: inline-flex;
+        
+    }
+    .image-content {
+        content: "";
+        position: absolute;
+        bottom: 0%;
+        left: 0px;
+        background-color: blue;
+        width: 100%;
+        color: white;
+        display: inline-block;
+        text-align: center;
+    }
+   
+    .image {
+        border: 1px solid white;
+        background-color: grey;
+    }
+.service-content {
+    align-self: auto;
+    padding: 40px;
+   
+}
+.service-list {
+    align-content: center;
+}
+.section-content {
+    background-color: black;
+    padding: 50px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    
+}
+.ul li {
+    margin-left: -30px;
+}
+.footer-section {
+    background-color: blue;
+    padding: 50px;
+}
+.footer-content {
+    color: white;
+}
+.footer-content ul {
+    list-style: none;
+}
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+    
+    .service-content {
+        width: 100%;
+    }
+   .section {
+    margin: 20px;
+   }
+   .image img {
+    width: 100%
+   }
+   .section-content {
+    width: 100%;
+    padding: 25px;
+   }
+   .row1 {
+    text-align: center;
+   }
+   .row2 {
+    text-align: center;
+   }
+   .ul li {
+    margin-left: -30px;
+}
+
+}
+@media (min-width: 768px) and (max-width: 990px)  {
+   .row1 {
+    margin: 20px;
+    width: 100%;
+    
+   }
+   /*    .col-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+    } */
+   .row2 {
+     margin: 20px;  
+     width: 100%;
+   
+    }
+    .image img {
+        width: 100%;
+    }
+    .image-black img {
+        width: 100%;
+    }
+    .footer-section {
+        padding: 20px;
+    }
+    .section {
+        position: relative;
+        justify-content: center;
+        display: inline-flex;
+        
+    }
+    .image-content {
+        content: "";
+        position: absolute;
+        bottom: 0%;
+        left: 0px;
+        background-color: blue;
+        width: 100%;
+        color: white;
+        display: inline-block;
+        text-align: center;
+    }
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-bottom: 29px;
+    } 
+   
+    .image {
+        border: 1px solid white;
+    }
+    .ul li {
+    margin-left: -30px;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1600px)  {
+.service-content {
+    margin: 30px;
+    padding: 50px;
+}
+.image img {
+    width: 100%;
+}
+
+
+
+}

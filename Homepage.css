@@ -1,0 +1,247 @@
+
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px;
+}
+
+.auhandy-section {
+  background-color: grey;
+}
+.shopping-service {
+    padding: 60px;
+}
+.handyman-section {
+    background-color: black;
+}
+.handyman {
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+.house-content {
+    align-content: center;
+  text-align: left;
+}
+.content {
+  align-content: center;
+}
+.problem-content {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.location-content {
+    padding: 60px;
+}
+.row-services {
+    padding: 30px 0 30px 0;
+  margin: 20px;
+}
+.quote {
+    padding-bottom: 20px;
+}
+.choose-section {
+    display: flex;
+    align-items: center;
+}
+
+.shopping {
+    display: flex;
+    align-items: center;
+}
+.shopping img {
+    background-color: blue;
+    margin-right: 20px;
+    align-items: center;
+}
+.our-service {
+    text-align: center;
+    justify-content: center;
+}
+.service1 {
+    border: 2px solid blue;
+    text-align: center;
+    
+}
+.project-image {
+    padding: 20px;
+}
+.im-block {
+    display: inline-block;
+}
+.hov:hover{
+    background: blue;
+    
+}
+.hov {
+    padding: 10px;
+}
+.service-content {
+    
+   color: white;
+   padding: 0px;
+}
+.section-content {
+    margin-right: 20px 60px 20px 60px;
+    background-color: black;
+}
+
+.projects {
+    text-align: center;
+    justify-content: center;
+}
+.nav-con {
+    text-align: center;
+}
+.project-content {
+    padding: 60px;
+}
+
+
+.form-button {
+    padding-top: 10px;
+   
+}
+.view-section {
+    padding-top: 10px;
+    
+}
+
+.client-section {
+   background-color: grey;
+}
+.client-content {
+padding: 50px 50px 50px 50px;
+display: flex;
+justify-content: space-around;
+}
+.footer-section {
+    background-color: black;
+    padding: 50px;
+    
+}
+.footer-content {
+   color: white;
+
+}
+.service-list {
+    align-content: center;
+}
+.footer-content ul {
+    list-style: none;
+}
+.parent {
+    position: relative;
+}
+.child::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;              /* place line at bottom */
+  left: 5px;
+  width: 60px;            /* make line as wide as text */
+  height: 2px ;            /* thickness of line */
+  background-color: black;
+}
+.ul li {
+    margin-left: -30px;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 576px) { 
+.handyman-image img {
+    width: 100%;
+}  
+.nav1 li {
+    display: flex;
+}
+.child2 {
+   margin-top: 20px;
+}
+.auhandy-button {
+    align-content: center;
+}
+.service-image img {
+    padding-bottom: 20px;
+    width: 120%;
+}
+.service-section {
+    width: 100;
+}
+.service1 {
+ margin: 20px 0 20px 0;
+
+}
+.project-image img {
+    width: 130%;
+}
+.housing-image img {
+    width: 100%;
+}
+.map-image iframe {
+    width: 130%;
+}
+.client-image {
+    width: 90%; /* Make them fit nicely on small screens */
+    max-width: 400px; 
+    padding-left: 75px;
+}
+.client-content {
+    flex-direction: column; /* Stack images vertically */
+    align-items: center;  
+    gap: 50px;
+}
+.hov:hover{
+    background: blue;
+    
+}
+.ul li {
+    margin-left: -30px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+
+    .housing-image img {
+        width: 100%;
+        align-items: center;
+    }
+    .service-image img {
+        width: 100%;
+        /* margin-top: 40px; */
+    }
+    .shopping-service {
+        width: 100%;
+    }
+  /*  .gear-solid {
+        width: 125%;
+    } */
+    .map-image iframe {
+        width: 100%;
+    }
+    
+    .handyman img {
+        width: 100%;
+    }
+
+.service1 {
+    margin: 20px;
+}
+.ul li {
+    margin-left: -30px;
+}
+.col-md-6 {
+        flex: 0 0 auto;
+        width: 100%; }
+.col-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+  
